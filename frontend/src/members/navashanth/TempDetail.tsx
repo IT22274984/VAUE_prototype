@@ -24,7 +24,6 @@ const TempDetail: React.FC<DetailProps> = ({ onClose }) => {
 
   const data = current.Temperature;
   const value = data.value;
-  const status = data.status;
 
   const config = {
     min: 0,

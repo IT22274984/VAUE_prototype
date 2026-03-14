@@ -34,7 +34,6 @@ const TDSDetail: React.FC<DetailProps> = ({ onClose }) => {
 
   const data = current.TDS;
   const value = data.value;
-  const status = data.status;
 
   const config = {
     min: 0,

@@ -24,7 +24,6 @@ const TurbidityDetail: React.FC<DetailProps> = ({ onClose }) => {
 
   const data = current.Turbidity;
   const value = data.value;
-  const status = data.status;
 
   const chartData = useMemo(() => {
     switch(timeframe) {
